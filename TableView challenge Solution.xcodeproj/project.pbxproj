@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		1CA26EF71BC28E1A00EBAE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA26EF61BC28E1A00EBAE92 /* main.m */; };
 		1CA26EFA1BC28E1A00EBAE92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA26EF91BC28E1A00EBAE92 /* AppDelegate.m */; };
-		1CA26EFD1BC28E1A00EBAE92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA26EFC1BC28E1A00EBAE92 /* ViewController.m */; };
 		1CA26F001BC28E1A00EBAE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA26EFE1BC28E1A00EBAE92 /* Main.storyboard */; };
 		1CA26F021BC28E1A00EBAE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA26F011BC28E1A00EBAE92 /* Assets.xcassets */; };
 		1CA26F051BC28E1A00EBAE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA26F031BC28E1A00EBAE92 /* LaunchScreen.storyboard */; };
 		1CA26F101BC28E1B00EBAE92 /* TableView_challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA26F0F1BC28E1B00EBAE92 /* TableView_challenge_SolutionTests.m */; };
 		1CA26F1B1BC28E1B00EBAE92 /* TableView_challenge_SolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA26F1A1BC28E1B00EBAE92 /* TableView_challenge_SolutionUITests.m */; };
+		1CA26F2A1BC28F4800EBAE92 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA26F291BC28F4800EBAE92 /* MyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		1CA26EF61BC28E1A00EBAE92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CA26EF81BC28E1A00EBAE92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA26EF91BC28E1A00EBAE92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1CA26EFB1BC28E1A00EBAE92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1CA26EFC1BC28E1A00EBAE92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CA26EFF1BC28E1A00EBAE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CA26F011BC28E1A00EBAE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA26F041BC28E1A00EBAE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		1CA26F161BC28E1B00EBAE92 /* TableView challenge SolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView challenge SolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA26F1A1BC28E1B00EBAE92 /* TableView_challenge_SolutionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_challenge_SolutionUITests.m; sourceTree = "<group>"; };
 		1CA26F1C1BC28E1B00EBAE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA26F281BC28F4800EBAE92 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTableViewController.h; path = ../MyTableViewController.h; sourceTree = "<group>"; };
+		1CA26F291BC28F4800EBAE92 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTableViewController.m; path = ../MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 		1CA26EF41BC28E1A00EBAE92 /* TableView challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				1CA26F281BC28F4800EBAE92 /* MyTableViewController.h */,
+				1CA26F291BC28F4800EBAE92 /* MyTableViewController.m */,
 				1CA26EF81BC28E1A00EBAE92 /* AppDelegate.h */,
 				1CA26EF91BC28E1A00EBAE92 /* AppDelegate.m */,
-				1CA26EFB1BC28E1A00EBAE92 /* ViewController.h */,
-				1CA26EFC1BC28E1A00EBAE92 /* ViewController.m */,
 				1CA26EFE1BC28E1A00EBAE92 /* Main.storyboard */,
 				1CA26F011BC28E1A00EBAE92 /* Assets.xcassets */,
 				1CA26F031BC28E1A00EBAE92 /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA26EFD1BC28E1A00EBAE92 /* ViewController.m in Sources */,
+				1CA26F2A1BC28F4800EBAE92 /* MyTableViewController.m in Sources */,
 				1CA26EFA1BC28E1A00EBAE92 /* AppDelegate.m in Sources */,
 				1CA26EF71BC28E1A00EBAE92 /* main.m in Sources */,
 			);
